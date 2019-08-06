@@ -88,6 +88,7 @@ function getCardString(card) {
 
 function getNextCard() {
   return deck.shift();
+  checkForEndOfGame();
 }
 
 function getCardNumericValue(card) {
